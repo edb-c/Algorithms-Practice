@@ -15,9 +15,9 @@ function maxChar(str) {
 //for each character of the string, check if charMap = char
 //if so, increment 
     for (let char of str){  
-       
-        if (charMap[char]) {
-            //console.log(charMap[char]);
+       //if we already have a character here, increment by 1
+        if (charMap[char]) { 
+            console.log(charMap[char]);
             charMap[char] ++;
             } else {
             charMap[char] = 1;
@@ -30,6 +30,7 @@ function maxChar(str) {
 
     
 //Loop to iterate through objects, char is assigned the keys of the object
+// USE FOR-IN syntax to iterate through an object
     for (let char in charMap) { 
         if (charMap[char] > max) {
             max = charMap[char];

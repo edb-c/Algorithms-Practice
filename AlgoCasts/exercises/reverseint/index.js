@@ -8,6 +8,8 @@
 //   reverseInt(-15) === -51
 //   reverseInt(-90) === -9
 
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/sign
+
 function reverseInt(n) {
     const reversed = n
       .toString()
@@ -21,4 +23,4 @@ function reverseInt(n) {
 
   module.exports = reverseInt;
   
-  reverseInt(-90);
+  reverseInt(1534236469);
