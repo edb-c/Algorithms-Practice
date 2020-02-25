@@ -157,5 +157,5 @@ const getWords = numData => {
 };
 
 //let num = 1234567890;
-//let num = 20;
-//console.log(numberToWords(num));
+let num = 19;
+console.log(numberToWords(num));
