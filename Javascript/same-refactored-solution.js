@@ -12,6 +12,7 @@ function same(arr1, arr2){
     }
     console.log(frequencyCounter1);
     console.log(frequencyCounter2);
+    
     for(let key in frequencyCounter1){
         if(!(key ** 2 in frequencyCounter2)){
             return false
